@@ -2,5 +2,6 @@ module.exports = {
     token: 'YOUR_BOT_TOKEN',
     prefix: '!',
     clientId: 'YOUR_CLIENT_ID',
-    guildId: 'YOUR_GUILD_ID' // for testing in a specific server
+    guildId: 'YOUR_GUILD_ID', // for testing in a specific server
+    minecraft_ip: 'play.example.com'
 };

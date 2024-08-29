@@ -1,10 +1,10 @@
 const { SlashCommandBuilder } = require('discord.js');
-
+const { minecraft_ip } = require('./config.js');
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('ping')
-        .setDescription('Replies with Pong!'),
+        .setName('ip')
+        .setDescription('Replies with the minecaft server ip!'),
     async execute(interaction) {
-        await interaction.reply('Pong!');
+        await interaction.reply(minecraft_ip);
     },
 };
